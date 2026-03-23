@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Widget Pro",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 150,
+      "sales": [
+        {"month": "Jan", "units": 45},
+        {"month": "Feb", "units": 52},
+        {"month": "Mar", "units": 38}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SuperGadget",
+      "category": "Electronics",
+      "price": 199.99,
+      "stock": 200,
+      "sales": [
+        {"month": "Jan", "units": 65},
+        {"month": "Feb", "units": 48},
+        {"month": "Mar", "units": 72}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "issue_id": 2,
+  "issue_title": "First idea",
+  "classification": "complex",
+  "problem_statement": "Create a browser-based report generator dashboard that connects to SQL database REST APIs and transforms raw query results into visual reports, packaged as a zero-backend React component with multiple analysis modes.",
+  "affected_files": [
+    "src/ReportGenerator.jsx",
+    "src/components/ChartView.jsx",
+    "src/components/TableView.jsx",
+    "src/components/StatsView.jsx",
+    "src/components/ConfigPanel.jsx",
+    "src/hooks/useDataFetch.js",
+    "src/hooks/useReportState.js",
+    "src/data/users.json",
+    "src/data/products.json",
+    "src/utils/chartHelpers.js",
+    "src/utils/dataTransforms.js",
+    "package.json",
+    "README.md"
+  ],
+  "implementation_plan": [
+    "Initialize project with minimal React setup and zero build requirements",
+    "Create core ReportGenerator component structure",
+    "Implement data fetching and state management hooks",
+    "Add Chart.js integration for visualizations",
+    "Create sample datasets for users and products",
+    "Build four analysis modes (charts, statistics, tables, real-time)",
+    "Implement REST API configuration and bearer token authentication",
+    "Add data transformation utilities",
+    "Set up Jest + React Testing Library for testing"
+  ],
+  "acceptance_criteria": [
+    "Component works as standalone with zero backend dependency",
+    "Supports four distinct analysis modes with charts, statistics, and tables",
+    "Connects to configurable SQL database REST APIs",
+    "Includes sample datasets for users and products",
+    "Supports bearer token authentication",
+    "Renders results in real-time",
+    "Has comprehensive test coverage"
+  ],
+  "actionable": true,
+  "clarification_needed": null,
+  "architectural_change": true
+}

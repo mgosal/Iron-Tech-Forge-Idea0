@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "admin",
+      "lastLogin": "2023-06-01T10:00:00Z",
+      "activityScore": 85
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "user",
+      "lastLogin": "2023-06-02T15:30:00Z",
+      "activityScore": 92
+    }
+  ]
+}
