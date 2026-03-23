@@ -1,6 +1,10 @@
 {
-  "tests_created": [],
-  "test_output_summary": "Cannot create tests - waiting for initial project setup and component implementation",
+  "tests_created": [
+    "src/__tests__/ReportGenerator.test.jsx",
+    "src/__tests__/useDataFetch.test.js",
+    "src/setupTests.js"
+  ],
+  "test_output_summary": "Environment setup required: Node.js and npm need to be installed to run tests",
   "all_tests_pass": false,
-  "exit_code": 1
+  "exit_code": 127
 }
