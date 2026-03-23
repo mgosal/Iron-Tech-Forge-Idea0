@@ -1,7 +1,13 @@
 {
-  "blank_repo": true,
+  "blank_repo": false,
   "build_cmd": "",
-  "test_cmd": "",
-  "languages": [],
-  "file_tree": ""
+  "test_cmd": "npm test",
+  "languages": [
+    "jsx",
+    "js",
+    "json",
+    "md",
+    "env"
+  ],
+  "file_tree": "./.env\n./README.md\n./package.json\n./src/ReportGenerator.jsx\n./src/__tests__/ChartView.test.jsx\n./src/__tests__/ReportGenerator.test.jsx\n./src/__tests__/useDataFetch.test.js\n./src/components/ChartView.jsx\n./src/components/ConfigPanel.jsx\n./src/components/StatsView.jsx\n./src/components/TableView.jsx\n./src/data/products.json\n./src/data/users.json\n./src/hooks/useDataFetch.js\n./src/hooks/useReportState.js\n./src/setupTests.js\n./src/utils/chartHelpers.js\n./src/utils/dataTransforms.js"
 }

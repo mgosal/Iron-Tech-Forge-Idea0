@@ -1,11 +1,10 @@
 {
   "tests_created": [
-    "src/__tests__/ReportGenerator.test.jsx",
     "src/__tests__/useDataFetch.test.js",
-    "src/__tests__/ChartView.test.jsx",
-    "src/setupTests.js"
+    "src/__tests__/dataTransforms.test.js",
+    "src/__tests__/ChartView.test.jsx"
   ],
-  "test_output_summary": "Test environment setup completed. Tests require npm installation to run. Created test files for core components with Jest and React Testing Library configuration.",
+  "test_output_summary": "Created comprehensive test suite covering API integration, real-time updates, data transformations, and chart rendering. Tests could not be executed due to environment limitations.",
   "all_tests_pass": false,
   "exit_code": 127
 }

@@ -17,3 +17,21 @@ Indexed repository context. Blank: true
 [2026-03-23T21:01:22Z] 💾 Test-Writer attempt 2...
 [2026-03-23T21:01:23Z] ⚙️ Test writer attempt 3...
 [2026-03-23T21:02:32Z] 💾 Test-Writer attempt 3...
+[2026-03-23T21:02:32Z] ❌ Test-Writer exhausted 3 retries.
+[2026-03-23T21:02:49Z] PIPELINE PAUSED: Test-Writer Retry Exhaustion
+[2026-03-23T21:03:35Z] 🚀 === FORGE PIPELINE v2 START: mgosal/Iron-Tech-Forge-Idea0 Issue #2 ===
+[2026-03-23T21:03:36Z] Issue is waiting on human input. Skipping.
+[2026-03-23T21:04:43Z] 🚀 === FORGE PIPELINE v2 START: mgosal/Iron-Tech-Forge-Idea0 Issue #2 ===
+[2026-03-23T21:04:44Z] 🔍 --- Stage 0: Indexing Codebase ---
+Indexed repository context. Blank: false
+[2026-03-23T21:04:44Z] 📥 --- Stage 2: Triager ---
+[2026-03-23T21:05:10Z] 🧑‍💻 --- Stage 3: Engineer Loop ---
+[2026-03-23T21:05:10Z] ⚙️ Engineer attempt 1...
+[2026-03-23T21:07:42Z] 🚀 === FORGE PIPELINE v2 START: mgosal/Iron-Tech-Forge-Idea0 Issue #2 ===
+[2026-03-23T21:07:44Z] 🔍 --- Stage 0: Indexing Codebase ---
+Indexed repository context. Blank: false
+[2026-03-23T21:07:44Z] ⏭️ Skipping Stage 2: Triage already completed.
+[2026-03-23T21:07:44Z] ⏭️ Skipping Stage 3: Engineer already succeeded.
+[2026-03-23T21:07:44Z] 🧪 --- Stage 4: Test-Writer Loop ---
+[2026-03-23T21:07:44Z] ⚙️ Test writer attempt 1...
+[2026-03-23T21:09:03Z] 💾 Test-Writer attempt 1...

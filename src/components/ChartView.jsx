@@ -1,17 +1,33 @@
-import React from 'react';
-import { Bar, Line } from 'react-chartjs-2';
+import React, { useEffect, useRef } from 'react';
+import Chart from 'chart.js/auto';
 import { generateChartConfig } from '../utils/chartHelpers';
 
 const ChartView = ({ data, chartType = 'bar' }) => {
-  const chartConfig = generateChartConfig(data, chartType);
-  
-  if (!chartConfig) return <div>No data available for visualization</div>;
-  
-  const ChartComponent = chartType === 'bar' ? Bar : Line;
-  
+  const chartRef = useRef(null);
+  const chartInstance = useRef(null);
+
+  useEffect(() => {
+    if (chartInstance.current) {
+      chartInstance.current.destroy();
+    }
+
+    const ctx = chartRef.current.getContext('2d');
+    const config = generateChartConfig(data, chartType);
+
+    if (config) {
+      chartInstance.current = new Chart(ctx, config);
+    }
+
+    return () => {
+      if (chartInstance.current) {
+        chartInstance.current.destroy();
+      }
+    };
+  }, [data, chartType]);
+
   return (
     <div style={{ height: '400px', width: '100%' }}>
-      <ChartComponent {...chartConfig} />
+      <canvas ref={chartRef} />
     </div>
   );
 };
